@@ -1,5 +1,7 @@
-ctransformers==0.2.5
-sentence-transformers==2.2.2
+ctransformers==0.2.5  # worked latest version as of Dec 2025
+sentence-transformers==2.2.2 # worked latest version as as of Dec 2025
 pinecone-client
 langchain==0.0.225
 flask
+pypdf
+pymupdf
