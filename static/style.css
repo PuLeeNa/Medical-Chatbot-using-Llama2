@@ -92,7 +92,7 @@ border-radius: 0 0 15px 15px !important;
 	height: 70px;
 	width: 70px;
 	border:1.5px solid #f5f6fa;
-
+	object-fit: cover;
 }
 .user_img_msg{
 	height: 40px;
