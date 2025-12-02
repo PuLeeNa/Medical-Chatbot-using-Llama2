@@ -1,9 +1,15 @@
-ctransformers==0.2.5  # worked latest version as of Dec 2025
-sentence-transformers==2.2.2 # worked latest version as as of Dec 2025
-pinecone-client
-langchain==0.0.225
-flask
-pypdf
-pymupdf
-python-dotenv
+ctransformers==0.2.27 
+sentence-transformers==3.3.1  
+pinecone-client==5.0.1
+langchain==1.1.0 
+langchain-community==1.1.0  #  required for document loaders
+langchain-core==1.1.0  #  required for prompts
+langchain-pinecone==0.2.0  #  required for Pinecone integration
+langchain-huggingface==0.1.2  # required for HuggingFace embeddings
+langchain-classic==0.3.11  #  required for RetrievalQA
+pydantic==2.10.3  # required by langchain-pinecone
+flask==3.1.0
+pypdf==5.1.0
+pymupdf==1.24.14
+python-dotenv==1.0.1
 -e .
