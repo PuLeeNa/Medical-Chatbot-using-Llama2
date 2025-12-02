@@ -1,4 +1,4 @@
-# 🏥 Medical Chatbot using Llama 2
+# 🏥 Medical Chatbot using Llama
 
 An intelligent medical chatbot powered by **Llama 2 7B**, **LangChain**, and **Pinecone** vector database. This RAG (Retrieval-Augmented Generation) application provides accurate medical information by retrieving relevant context from medical documents and generating responses using a locally-hosted language model.
 
